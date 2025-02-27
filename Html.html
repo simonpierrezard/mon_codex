@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex des Compagnons</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Codex des Compagnons</h1>
+        <input type="text" id="searchBar" placeholder="Rechercher un compagnon...">
+        <button id="filterButton">Filtrer</button>
+    </div>
+
+    <div class="progression">
+        <p>Progression: <span id="progressionText">0/15 compagnons collectés</span></p>
+    </div>
+
+    <div class="companions-list">
+        <div class="companion" id="companion1">
+            <img src="wi-feroce.jpg" alt="Wi-Féroce">
+            <h3>Wi-Féroce</h3>
+            <p>Statut : <span class="status acquired">Acquis</span></p>
+        </div>
+        <!-- Répéter pour chaque compagnon -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
